@@ -1,0 +1,81 @@
+.header{
+    display: flex;
+    height: 5rem;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: .75rem;
+    padding: .75rem 1.25rem;
+}
+
+.header__logo{
+    width: 7rem;
+}
+
+.header__search{
+    display: none; 
+    background-color: var(--black-five);
+
+    border: none;
+    border-radius: 20px;
+
+    width: 22rem;
+    height: 2.75rem;
+
+    padding: 0 1rem;
+}
+.header__search-button{
+    background-color: transparent;
+    order: 3;
+}
+.header__search-icon{
+    content: url('../../assets/img/lupa.svg');
+    height: 1.5rem;
+}
+
+.header__button-login{
+    width: 8rem;
+    height: 2.75rem;
+
+    font-family: var(--font);
+    color: var(--blue-hundred);
+    font-weight: 600;
+
+    border: 1px solid var(--blue-hundred);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:768px) {
+    .header{
+        justify-content: inherit;
+        padding: 0 2rem;
+    }
+    .header__search{
+        display: block; 
+    }
+    .header__search-button{
+        order:inherit;
+        position: relative;
+        left: -3rem;
+    }
+    .header__search-icon{
+        opacity: 0.5;
+    }
+    .header__button-login{
+        justify-self: flex-end;
+        margin-left: auto;
+        width: 10rem;
+    }
+}
+@media screen and (min-width: 1040px) {
+    .header{
+        padding: 0 7rem;
+    }
+    .header__search{
+        width: 27rem;
+    }
+}
