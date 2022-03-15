@@ -1,0 +1,19 @@
+.login{
+    width: 70vw;
+    height: 40vh;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.login__input{
+    height: 2.25rem;
+}
+@media screen and (min-width:768px) {
+    .login{
+        max-width: 20rem;
+    }
+}
