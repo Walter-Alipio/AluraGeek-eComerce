@@ -1,0 +1,130 @@
+.footer{
+    text-align: center;
+}
+.footer__maker{
+    text-align: center;
+    margin: 2rem auto;
+}
+.footer__card{
+    background-color: var(--blue-ten);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    box-sizing: border-box;
+    padding:  1rem;
+}
+
+/* nav */
+.footer__card-nav{
+    width: 100vw;
+    margin-top: 1rem;
+}
+.footer__card-list{
+    text-align: center;
+    
+}
+.footer__card-list-item{
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+/* form */
+.footer__card-form{
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 1rem;
+}
+.footer__form-title{
+    font-size: 1rem;
+}
+.footer__card-fom-label{
+    font-size: .75rem;
+    left: .75rem;
+    position: relative;
+    top: 2.25rem;
+}
+.footer__card-fom-name{
+    width: 100%;
+    height: 3.75rem;
+    box-shadow: 0 3px 2px #C8C8C8;
+
+    padding: .75rem;
+}
+.footer__card-form-message{
+    width: 100%;
+    box-shadow: 0 3px 2px #C8C8C8;
+
+    resize: none;
+    padding: .75rem;
+}
+.footer__card-form-button{
+    background-color: var(--blue-hundred);
+    color: #fff;
+
+    width: 10rem;
+    height: 3rem;
+}
+
+@media screen and (min-width:768px)  {
+    .footer__card{
+        display: grid;
+        grid-template-columns: auto 1fr ;
+        grid-template-rows: auto 1fr;
+
+        grid-template-areas: 
+        "logo form"
+        "nav form";
+        column-gap: 7rem;
+        padding: 1rem 1.75rem;
+    }
+    .footer__card-logo{
+        grid-area: logo;
+    }
+    .footer__card-nav{
+        width: 100%;
+        height: 100%;
+        grid-area: nav;
+    }
+    .footer__card-list{
+        text-align:start;   
+    }
+
+/* Formulário */ 
+    .footer__card-form{
+        width: 100%;
+        height: 50vh;
+        grid-area: form;
+    }
+    .footer__card-fom-label{
+        top: .75rem;
+    }
+    .footer__card-fom-name{
+        margin-top: -1.75rem;
+    }
+    .footer__card-form-message{
+        height: 15vh;
+    }
+}
+@media screen and (min-width:1024px) {
+    .footer__card{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        column-gap: 0;
+    }
+    .footer__card-nav{
+        width: 20vw;
+
+    }
+
+    .footer__card-form{
+        max-width: 40vw;
+    }
+    
+}
