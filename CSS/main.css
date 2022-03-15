@@ -1,5 +1,17 @@
-@import url('reset.css');
+@import url('_reset.css');
 @import url('_variables.css');
 @import url('Components/header.css');
+@import url('Components/footer.css');
 
+body{
+    font-family: var(--font);
+    color: var(--black-hundred);
+}
 
+.hide{
+    height: 1px;
+    overflow: hidden;
+    margin: -1px;
+    position: absolute;
+    width: 1px;
+}
