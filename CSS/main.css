@@ -2,12 +2,26 @@
 @import url('_variables.css');
 @import url('Components/header.css');
 @import url('Components/footer.css');
+@import url('Components/button.css');
+@import url('Components/input.css');
+@import url('login.css');
 
 body{
     font-family: var(--font);
     color: var(--black-hundred);
 }
+.main{
+    background-color: var(--black-five);
+    height: 60vh;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle{
+    font-size: 1rem;
+}
 .hide{
     height: 1px;
     overflow: hidden;
