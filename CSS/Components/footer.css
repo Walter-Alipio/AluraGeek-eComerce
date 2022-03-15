@@ -62,13 +62,6 @@
     resize: none;
     padding: .75rem;
 }
-.footer__card-form-button{
-    background-color: var(--blue-hundred);
-    color: #fff;
-
-    width: 10rem;
-    height: 3rem;
-}
 
 @media screen and (min-width:768px)  {
     .footer__card{

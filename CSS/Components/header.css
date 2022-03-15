@@ -34,21 +34,6 @@
     height: 1.5rem;
 }
 
-.header__button-login{
-    width: 8rem;
-    height: 2.75rem;
-
-    font-family: var(--font);
-    color: var(--blue-hundred);
-    font-weight: 600;
-
-    border: 1px solid var(--blue-hundred);
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 @media screen and (min-width:768px) {
     .header{
         justify-content: inherit;
