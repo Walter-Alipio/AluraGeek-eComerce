@@ -5,6 +5,7 @@
 @import url('Components/button.css');
 @import url('Components/input.css');
 @import url('login.css');
+@import url('Components/banner.css');
 
 body{
     font-family: var(--font);
