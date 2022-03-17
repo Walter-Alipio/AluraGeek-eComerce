@@ -13,6 +13,9 @@
     justify-content: center;
     align-items: center;
 }
+.button__primary:hover{
+    background-color: var(--blue-twenty);
+}
 
 .button__secondary{
     font-family: var(--font);
@@ -27,4 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.button__secondary:hover{
+    background-color: var(--blue-eighty);
 }
