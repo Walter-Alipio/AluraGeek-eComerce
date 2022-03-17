@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AluraGeek | Produtos </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/main.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img src="assets/img/Logo-alurageek.svg" alt="Logo AluraGeek" class="header__logo">
+        </a>
+        <input class="header__search" type="search" name="search" id="search-bar" placeholder="O que deseja encontrar?" aria-label="Campo de busca de produtos">
+        <button class="header__search-button">
+            <i class="header__search-icon "></i>
+        </button>
+        <a href="login.html" class="header__button-login button__primary">Login</a>
+    </header>
+
+    <main>
+
+        <article class="products__highlights">
+            <div class="products__highlight-img">
+
+                <img src="assets/img-produtos-starwars/Caneca-average.png" alt="Caneca em formato de capacete de Storm Trooper" class="product__img-heighlight">
+            </div>
+            <section class="products__highlights-description">
+                <p class="product__name-highlights">Produto XYZ</p>
+                <p class="product__value">R$ 60,00</p>
+                <p class="product__description">Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam</p>
+            </section>
+        </article>
+
+        <section class="products">
+            <section class="products__section">
+
+                <div class="products__section-name">
+                    <h3 class="products__section-title">Produtos similares</h3>
+                    <a href="" class="products__section-link">Ver Tudo</a>
+                </div>
+
+                <div class="products__section-content">
+
+                    <article class="product">
+                        <img src="assets/img-produtos-starwars/Caneca-average.png" alt="Caneca em formato de capacete de Storm Trooper" class="product__img">
+                        <p class="product__name">Produto XYZ</p>
+                        <p class="product__value">R$ 60,00</p>
+                        <a href="#" class="product__link">Ver produto</a>
+                    </article>
+
+                    <article class="product">
+                        <img src="assets/img-produtos-starwars/VaderHead-average.png" alt="Boneco cabeçudo Darth Vader" class="product__img">
+                        <p class="product__name">Produto XYZ</p>
+                        <p class="product__value">R$ 60,00</p>
+                        <a href="#" class="product__link">Ver produto</a>
+                    </article>
+
+                    <article class="product">
+                        <img src="assets/img-produtos-starwars/Yoda-average.png" alt="Boneco do mestre Yoda" class="product__img">
+                        <p class="product__name">Produto XYZ</p>
+                        <p class="product__value">R$ 60,00</p>
+                        <a href="#" class="product__link">Ver produto</a>
+                    </article>
+
+                    <article class="product">
+                        <img src="assets/img-produtos-starwars/StormTrooper-average.png" alt="Boneco Storm Trooper" class="product__img">
+                        <p class="product__name">Produto XYZ</p>
+                        <p class="product__value">R$ 60,00</p>
+                        <a href="#" class="product__link">Ver produto</a>
+                    </article>
+
+                    <article class="product">
+                        <img src="assets/img-produtos-starwars/Grogu-average.png" alt="Boneco baby yoda" class="product__img">
+                        <p class="product__name">Produto XYZ</p>
+                        <p class="product__value">R$ 60,00</p>
+                        <a href="#" class="product__link">Ver produto</a>
+                    </article>
+
+                    <article class="product">
+                        <img src="assets/img-produtos-starwars/Kylo-average.png" alt="Boneco Kylo Ren" class="product__img">
+                        <p class="product__name">Produto XYZ</p>
+                        <p class="product__value">R$ 60,00</p>
+                        <a href="#" class="product__link">Ver produto</a>
+                    </article>
+
+                </div>
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <section class="footer__card">
+            <img src="assets/img/Logo-alurageek.svg" alt="Logo Alurageek" class="footer__card-logo">
+            <nav class="footer__card-nav">
+                <ul class="footer__card-list">
+                    <li class="footer__card-list-item"><a href="#">Quem somos nós</a></li>
+                    <li class="footer__card-list-item"><a href="#">Política de privacidade</a></li>
+                    <li class="footer__card-list-item"><a href="#">Programa de fidelidade</a></li>
+                    <li class="footer__card-list-item"><a href="#">Nossas lojas</a></li>
+                    <li class="footer__card-list-item"><a href="#">Quero ser franqueado</a></li>
+                    <li class="footer__card-list-item"><a href="#">Anuncie aqui</a></li>
+                </ul>
+            </nav>
+            <form action="" class="footer__card-form">
+                <h2 class="footer__form-title">Fale conosco</h2>
+                <label for="name" class="footer__card-fom-label">Nome</label>
+                <input type="text" name="nome" id="name" class="footer__card-fom-name">
+                <label for="massage" class="hide">Escreva sua mensagem</label>
+                <textarea name="mensagem" id="message" cols="30" rows="10" placeholder="Escreva sua mensagem" class="footer__card-form-message"></textarea>
+                <button class="footer__card-form-button button__secondary">Enviar mensagem</button>
+            </form>
+        </section>
+        <div class="footer__maker">
+            <p> Desenvolvido por Walter Alípio </p>
+            <p>2022</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
