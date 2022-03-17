@@ -1,0 +1,82 @@
+.products{
+    padding: 1rem;
+    
+}
+.products__section{
+    margin-bottom: 2rem;
+}
+.products__section-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 1rem;
+}
+
+.products__section-link{
+    font-weight: 700;
+    font-size: .75rem;
+    color: var(--blue-hundred);
+}
+.products__section-link::after{
+    content: url('../../assets/img/seta.svg');
+    margin-left: .5rem;
+}
+.products__section-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* Estilo dos cartões */
+.product{
+    width: 48%;
+    margin-bottom: .5rem;
+}
+.product:nth-child(5), .product:nth-child(6){
+    display: none;
+}
+
+.product__img{
+    width: 100%;
+}
+.product__name{
+    font-size: .85rem;
+}
+.product__value{
+    font-weight: 700;
+}
+.product__link{
+    font-weight: 700;
+    font-size: .80rem;
+    color: var(--blue-hundred);   
+}
+
+@media screen and (min-width:768px) {
+    .product{
+        width: 23%;
+    }
+    .products__section{
+        margin: 0 1rem;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (min-width:1024px) {
+    .product{
+        width: 16%;
+    }
+    .products__section{
+        margin: 0 3rem;
+        margin-bottom: 2rem;
+    }
+    .product:nth-child(5), .product:nth-child(6){
+        display: block;
+    }
+}
+@media screen and (min-width:1300px) {
+    .products__section{
+        margin: 0 6rem;
+        margin-bottom: 2rem;
+    }
+}
