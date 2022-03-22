@@ -57,6 +57,7 @@
 }
 .footer__card-form-message{
     width: 100%;
+    min-height: 5rem;
     box-shadow: 0 3px 2px #C8C8C8;
 
     resize: none;
