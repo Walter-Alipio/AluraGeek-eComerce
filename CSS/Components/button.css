@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .button__primary:hover{
     background-color: var(--blue-twenty);
@@ -30,6 +31,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem 0;
+    cursor: pointer;
 }
 .button__secondary:hover{
     background-color: var(--blue-eighty);
