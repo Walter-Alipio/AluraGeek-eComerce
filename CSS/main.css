@@ -12,8 +12,12 @@ body{
     font-family: var(--font);
     color: var(--black-hundred);
 }
-.main{
+
+main{
+
     background-color: var(--black-five);
+}
+.main{
     height: 60vh;
 
     display: flex;
