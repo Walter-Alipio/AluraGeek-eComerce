@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    gap: 1rem;
 }
 .login__input{
     height: 2.5rem;
