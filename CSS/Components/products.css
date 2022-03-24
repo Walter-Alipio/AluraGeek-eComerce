@@ -34,6 +34,9 @@
     width: 48%;
     margin-bottom: .5rem;
 }
+.product-full{
+    position: relative;
+}
 .product:nth-child(5), .product:nth-child(6){
     display: none;
 }
@@ -54,12 +57,12 @@
 }
 /* botões da página todos os produtos */
 .product-full__buttons{
-    position: relative;
+    position: absolute;
     width: 3rem;
     height: 3rem;
 
-    top: 15%;
-    left: 65%;
+    top: 1%;
+    right: 5%;
 
     display: flex;
     justify-content: space-between;
