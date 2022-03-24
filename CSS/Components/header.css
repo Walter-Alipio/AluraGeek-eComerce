@@ -28,6 +28,7 @@
 .header__search-button{
     background-color: transparent;
     order: 3;
+    cursor: pointer;
 }
 .header__search-icon{
     content: url('../../assets/img/lupa.svg');

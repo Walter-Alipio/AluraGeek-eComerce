@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AluraGeek | Novo produto </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/new-products.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" role=button title="Home">
+            <img src="assets/img/Logo-alurageek.svg" alt="Logo AluraGeek" class="header__logo">
+        </a>
+        <input class="header__search" type="search" name="search" id="search-bar" placeholder="O que deseja encontrar?" aria-label="Campo de busca de produtos">
+        <button class="header__search-button" title="Campo de busca">
+            <i class="header__search-icon "></i>
+        </button>
+        <a href="#" role=button class="button__primary button__adminstrator" title="Adminstrador">Menu Adminstrador</a>
+    </header>
+
+    <main>
+        <form action="" class="new-product">
+            <h2>Adicionar novo produto</h2>
+            <div class="new-product__chose-file">
+                <div class="new-product__drop-area">
+                </div>
+                <span>Ou</span>
+
+                <label for="file" class="new-product__addfile"></label>
+                <input type="file" name="file" id="file">
+            </div>
+            <label for="product-name" class="new-product__label">Nome do produto</label>
+            <input type="text" class="input-text" id="product-name">
+            <label for="product-value" class="new-product__label">Preço do pruduto</label>
+            <input type="text" class="input-text" placeholder="R$" id="product-value">
+            <label for="description" class="hide">Descrição do pruduto</label>
+            <textarea name="description" id="description" cols="30" rows="10" class="new-product__text-area"
+            placeholder="Descrição do produto"></textarea>
+            <button class="button__secondary button__add">Adicionar produto</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__card">
+            <img src="assets/img/Logo-alurageek.svg" alt="Logo Alurageek" class="footer__card-logo">
+            <nav class="footer__card-nav">
+                <ul class="footer__card-list">
+                    <li class="footer__card-list-item"><a href="#">Quem somos nós</a></li>
+                    <li class="footer__card-list-item"><a href="#">Política de privacidade</a></li>
+                    <li class="footer__card-list-item"><a href="#">Programa de fidelidade</a></li>
+                    <li class="footer__card-list-item"><a href="#">Nossas lojas</a></li>
+                    <li class="footer__card-list-item"><a href="#">Quero ser franqueado</a></li>
+                    <li class="footer__card-list-item"><a href="#">Anuncie aqui</a></li>
+                </ul>
+            </nav>
+            <form action="" class="footer__card-form">
+                <h2 class="footer__form-title">Fale conosco</h2>
+                <label for="name" class="footer__card-fom-label">Nome</label>
+                <input type="text" name="nome" id="name" class="footer__card-fom-name">
+                <label for="massage" class="hide">Escreva sua mensagem</label>
+                <textarea name="mensagem" id="message" cols="30" rows="10" placeholder="Escreva sua mensagem" class="footer__card-form-message"></textarea>
+                <button class="footer__card-form-button button__secondary">Enviar mensagem</button>
+            </form>
+        </section>
+        <div class="footer__maker">
+            <p> Desenvolvido por Walter Alípio </p>
+            <p>2022</p>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>

@@ -67,7 +67,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .product__button-delete{
     background-image: url('../../assets/img/delete.svg');
