@@ -25,12 +25,12 @@
 .products__section-content{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 4%;
 }
 
 
 /* Estilo dos cartões */
-.product{
+.product, .product-full{
     width: 48%;
     margin-bottom: .5rem;
 }
@@ -51,6 +51,42 @@
     font-weight: 700;
     font-size: .80rem;
     color: var(--blue-hundred);   
+}
+/* botões da página todos os produtos */
+.product-full__buttons{
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+
+    top: 15%;
+    left: 65%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.product__button-delete{
+    background-image: url('../../assets/img/delete.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background-color: transparent;
+
+    width: 1rem;
+    height: 1rem;
+}
+.product__button-edit{
+    background-image: url('../../assets/img/edit.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background-color: transparent;
+
+    width: 1rem;
+    height: 1rem;
 }
 
 .product__description{
@@ -85,13 +121,19 @@
     font-size: 1.5rem;
     font-weight: 500;
 }
+
 @media screen and (min-width:768px) {
-    .product{
+    .product, .product-full{
         width: 23%;
     }
+
     .products__section{
         margin: 0 1rem;
         margin-bottom: 2rem;
+    }
+
+    .products__section-content{
+        gap: 2%;
     }
 /* highlights */
     .products__highlights{
@@ -109,12 +151,15 @@
 
 }
 @media screen and (min-width:1024px) {
-    .product{
+    .product, .product-full{
         width: 16%;
     }
     .products__section{
         margin: 0 3rem;
         margin-bottom: 2rem;
+    }
+    .products__section-content{
+        gap: .75%;
     }
     .product:nth-child(5), .product:nth-child(6){
         display: block;

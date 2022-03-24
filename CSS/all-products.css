@@ -1,0 +1,9 @@
+.products__allproducts{
+    padding: 1rem;
+}
+
+@media screen and (min-width:1024px) {
+    .products__allproducts-title{
+        font-size: 2rem;
+    }
+}
