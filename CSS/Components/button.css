@@ -37,3 +37,17 @@
 .button__secondary:hover{
     background-color: var(--blue-eighty);
 }
+
+.button__adminstrator{
+    width: 10.5rem;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .button__adminstrator{
+        justify-self: flex-end;
+        margin-left: auto;
+    }
+}
