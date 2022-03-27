@@ -1,4 +1,9 @@
-<img src="assets/img/Logo-alurageek.svg" alt="Logo da AluraGeek" width="400"/>
+<h1 aling="center">
+<img src="assets/img/icons/Logo-alurageek.svg" alt="Logo da AluraGeek" width="400"/>
+</h1>
+<p aling="center">
+<img src="assets/img/Screenshot/Home.png" alt="Imagem da página home na versão desktop, tablet e mobile" width="600"/>
+</p>
 
 ### Alura-Challenge-Front-End-3
 #
@@ -11,6 +16,13 @@
 - `Semana 4`: #
 #
 
+### Técnologias utilizadas:
+<div>
+    <img align="center" alt="HTML" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+    <img align="center" alt="CSS" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+</div>
+
+#
 
 ### Descrição do projeto:
 Através do Challenge Based Learning, uma metodologia de ensino que a Apple ajudou a criar,
