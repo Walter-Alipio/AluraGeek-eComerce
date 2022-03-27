@@ -1,5 +1,5 @@
-# Alura-Challenge-Front-End-3
-![Logo do pojeto AluraGeek](assets/img/Logo-alurageek.svg)
+<img src="assets/img/Logo-alurageek.svg" alt="Logo da AluraGeek" width="400"/>
+### Alura-Challenge-Front-End-3
 #
 
 
