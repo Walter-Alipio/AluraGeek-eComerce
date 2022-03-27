@@ -1,9 +1,8 @@
-<h1 aling="center">
-<img src="assets/img/icons/Logo-alurageek.svg" alt="Logo da AluraGeek" width="400" position="center"/>
-</h1>
-<p aling="center">
-<img src="assets/img/Screenshot/home.png" alt="Imagem da página home na versão desktop, tablet e mobile" width="600"/>
-</p>
+
+<img src="assets/img/icons/Logo-alurageek.svg" alt="Logo da AluraGeek" width="400">
+
+<img src="assets/img/Screenshot/home.png" alt="Imagem da página home na versão desktop, tablet e mobile" width="600" align="center">
+
 
 ### Alura-Challenge-Front-End-3
 #
