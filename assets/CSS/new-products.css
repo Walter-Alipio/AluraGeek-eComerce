@@ -24,7 +24,7 @@ input[type='file'] {
     height: 8.5rem;
     width: 100%;
 
-    background: #fff url('../assets/img/plus.svg') no-repeat center 40%;
+    background: #fff url('../assets/img/icons/plus.svg') no-repeat center 40%;
     background-size:7%;
     
     border: 2px dashed var(--black-fifty);
@@ -51,6 +51,7 @@ input[type='file'] {
     resize: none;
 
     font-family: var(--font);
+    box-shadow: 0 3px 2px #C8C8C8;
 
     padding: 1rem;
 }
@@ -77,7 +78,7 @@ input[type='file'] {
         height: 10rem;
         width: 17rem;
     
-        background: #fff url('../assets/img/empty.svg') no-repeat center 30%;
+        background: #fff url('../assets/img/icons/empty.svg') no-repeat center 30%;
         background-size:15%;
         
         border: 2px dashed var(--black-fifty);
