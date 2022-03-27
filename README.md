@@ -1,13 +1,12 @@
 <h1 aling="center">
-<img src="assets/img/icons/Logo-alurageek.svg" alt="Logo da AluraGeek" width="400"/>
+<img src="assets/img/icons/Logo-alurageek.svg" alt="Logo da AluraGeek" width="400" position="center"/>
 </h1>
 <p aling="center">
-<img src="assets/img/Screenshot/Home.png" alt="Imagem da página home na versão desktop, tablet e mobile" width="600"/>
+<img src="assets/img/Screenshot/home.png" alt="Imagem da página home na versão desktop, tablet e mobile" width="600"/>
 </p>
 
 ### Alura-Challenge-Front-End-3
 #
-
 
 ![Badge em desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green)
 - `Semana 1`: Criação das páginas home e descrição do produto responsivas seguindo modelo disponibilizado no figma.:heavy_check_mark:
