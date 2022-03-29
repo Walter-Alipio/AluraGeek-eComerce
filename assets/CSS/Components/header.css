@@ -1,67 +1,92 @@
-.header{
-    display: flex;
-    height: 5rem;
-   
-    align-items: center;
-    justify-content: space-between;
+.header {
+  display: flex;
+  height: 5rem;
 
-    gap: .75rem;
-    padding: .75rem 1.25rem;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 0.75rem;
+  padding: 0.75rem 1.25rem;
 }
 
-.header__logo{
-    width: 7rem;
+.header__logo {
+  width: 7rem;
+}
+.search {
+  background-color: transparent;
+  height: 3rem;
+  width: 3rem;
+  order: 3;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__search {
+  background-color: var(--black-five);
+  border: none;
+  border-radius: 20px;
+  width: 0;
+  height: 0;
+  transition: 0.8s;
+}
+.header__search-button {
+  background-color: transparent;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+  .search:hover > .header__search {
+    width: 90vw;
+    padding: 1.5rem;
+    margin-right: auto;
+    transform: translateX(-50%);
+  }
+  .search:hover > .header__search-button {
+    display: none;
+  }
+}
+.header__search-icon {
+  content: url("../../img/icons/lupa.svg");
+  height: fit-content;
 }
 
-.header__search{
-    display: none; 
-    background-color: var(--black-five);
+@media screen and (min-width: 768px) {
+  .header {
+    justify-content: inherit;
+    padding: 0 2rem;
+  }
+  .search {
+    order: inherit;
+    width: auto;
+  }
 
-    border: none;
-    border-radius: 20px;
-
+  .header__search {
+    display: block;
     width: 22rem;
-    height: 2.75rem;
-
-    padding: 0 1rem;
-}
-.header__search-button{
-    background-color: transparent;
-    order: 3;
-    cursor: pointer;
-}
-.header__search-icon{
-    content: url('../../img/icons/lupa.svg');
-    height: 1.5rem;
-}
-
-@media screen and (min-width:768px) {
-    .header{
-        justify-content: inherit;
-        padding: 0 2rem;
-    }
-    .header__search{
-        display: block; 
-    }
-    .header__search-button{
-        order:inherit;
-        position: relative;
-        left: -3rem;
-    }
-    .header__search-icon{
-        opacity: 0.5;
-    }
-    .header__button-login{
-        justify-self: flex-end;
-        margin-left: auto;
-        width: 10rem;
-    }
+    padding: 1.2rem;
+  }
+  .header__search-button {
+    order: inherit;
+    position: relative;
+    left: -3rem;
+  }
+  .header__search-icon {
+    opacity: 0.5;
+  }
+  .header__button-login {
+    justify-self: flex-end;
+    margin-left: auto;
+    width: 10rem;
+  }
 }
 @media screen and (min-width: 1040px) {
-    .header{
-        padding: 0 7rem;
-    }
-    .header__search{
-        width: 27rem;
-    }
+  .header {
+    padding: 0 7rem;
+  }
+  .header__search {
+    width: 27rem;
+  }
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,15 +15,19 @@
     <link rel="stylesheet" href="assets/CSS/new-products.css">
 
 </head>
+
 <body>
     <header class="header">
         <a href="index.html" role=button title="Home">
             <img src="assets/img/icons/Logo-alurageek.svg" alt="Logo AluraGeek" class="header__logo">
         </a>
-        <input class="header__search" type="search" name="search" id="search-bar" placeholder="O que deseja encontrar?" aria-label="Campo de busca de produtos">
-        <button class="header__search-button" title="Campo de busca">
-            <i class="header__search-icon "></i>
-        </button>
+        <div class="search">
+            <input class="header__search" type="search" name="search" id="search-bar"
+                placeholder="O que deseja encontrar?" aria-label="Campo de busca de produtos">
+            <button class="header__search-button" title="Campo de busca">
+                <i class="header__search-icon "></i>
+            </button>
+        </div>
         <a href="#" role=button class="button__primary button__adminstrator" title="Adminstrador">Menu Adminstrador</a>
     </header>
 
@@ -43,7 +48,7 @@
             <input type="text" class="input-text" placeholder="R$" id="product-value">
             <label for="description" class="hide">Descrição do pruduto</label>
             <textarea name="description" id="description" cols="30" rows="10" class="new-product__text-area"
-            placeholder="Descrição do produto"></textarea>
+                placeholder="Descrição do produto"></textarea>
             <button class="button__secondary button__add">Adicionar produto</button>
         </form>
     </main>
@@ -66,7 +71,8 @@
                 <label for="name" class="footer__card-fom-label">Nome</label>
                 <input type="text" name="nome" id="name" class="footer__card-fom-name">
                 <label for="massage" class="hide">Escreva sua mensagem</label>
-                <textarea name="mensagem" id="message" cols="30" rows="10" placeholder="Escreva sua mensagem" class="footer__card-form-message"></textarea>
+                <textarea name="mensagem" id="message" cols="30" rows="10" placeholder="Escreva sua mensagem"
+                    class="footer__card-form-message"></textarea>
                 <button class="footer__card-form-button button__secondary">Enviar mensagem</button>
             </form>
         </section>
@@ -79,4 +85,5 @@
 
 
 </body>
+
 </html>
