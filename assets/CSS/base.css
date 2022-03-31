@@ -1,35 +1,38 @@
-@import url('_reset.css');
-@import url('_variables.css');
-@import url('Components/header.css');
-@import url('Components/footer.css');
-@import url('Components/button.css');
-@import url('Components/input.css');
-@import url('Components/products.css');
+@import url("_reset.css");
+@import url("_variables.css");
+@import url("Components/header.css");
+@import url("Components/footer.css");
+@import url("Components/button.css");
+@import url("Components/input.css");
+@import url("Components/products.css");
 
-body{
-    font-family: var(--font);
-    color: var(--black-hundred);
+html {
+  scroll-behavior: smooth;
 }
 
-main{
-
-    background-color: var(--black-five);
-}
-.main{
-    height: 60vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  font-family: var(--font);
+  color: var(--black-hundred);
 }
 
-.subtitle{
-    font-size: 1rem;
+main {
+  background-color: var(--black-five);
 }
-.hide{
-    height: 1px;
-    overflow: hidden;
-    margin: -1px;
-    position: absolute;
-    width: 1px;
+.main {
+  height: 60vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitle {
+  font-size: 1rem;
+}
+.hide {
+  height: 1px;
+  overflow: hidden;
+  margin: -1px;
+  position: absolute;
+  width: 1px;
 }
