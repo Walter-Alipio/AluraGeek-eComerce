@@ -1,15 +1,19 @@
-:root{
-    --blue-hundred: #2A7AE4;
-    --blue-eighty: #5595E9;
-    --blue-twenty: #D4E4FA;
-    --blue-ten: #EAF2FD;
+:root {
+    --blue-hundred: #2a7ae4;
+    --blue-eighty: #5595e9;
+    --blue-twenty: #d4e4fa;
+    --blue-ten: #eaf2fd;
 
     --black-hundred: #464646;
-    --black-fifty:#A2A2A2;
-    --black-thirty: #C8C8C8;
-    --black-five: #F5F5F5;
+    --black-fifty: #a2a2a2;
+    --black-thirty: #c8c8c8;
+    --black-five: #f5f5f5;
 
-    --white-grey: #E5E5E5;
+    --white-grey: #e5e5e5;
 
-    --font: 'Raleway', sans-serif;
+    --error-message: rgb(230, 86, 29);
+
+    --valid-message: rgb(23, 224, 5);
+
+    --font: "Raleway", sans-serif;
 }

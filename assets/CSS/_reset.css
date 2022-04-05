@@ -1,15 +1,19 @@
 * {
-	box-sizing: border-box;
     margin: 0;
-	padding: 0;
-	border: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
-a,ul,li{
+a,
+ul,
+li {
     text-decoration: none;
-	list-style: none;
-	color: currentColor;
+    list-style: none;
+    color: currentColor;
 }
-form,h2,h3{
-	margin: 0;
-	padding: 0;
+form,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
 }

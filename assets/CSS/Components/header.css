@@ -30,6 +30,9 @@
   height: 0;
   transition: 0.8s;
 }
+.header__search:hover {
+  filter: drop-shadow(0 0 3px #000);
+}
 .header__search-button {
   background-color: transparent;
   border-radius: 40px;
