@@ -38,20 +38,24 @@
             <h2 class="subtitle login__title">Iniciar Sessão</h2>
             <label for="email" class="hide">Escreva seu e-mail</label>
             <input type="email" name="e-mail" id="email" placeholder="Escreva seu e-mail"
-                class="input-text login__input">
+                class="input-text login__input" required pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
+                data-input="email">
+            <!-- Regex de validação do site w3 resource-->
+            <span class="input-message-error" data-error="email"></span>
+
             <label for="password" class="hide">Escreva sua senha</label>
             <input type="password" name="senha" id="password" placeholder="Escreva sua senha"
-                class="input-text login__input">
-            <button class="button__secondary">Entrar</button>
+                class="input-text login__input" required data-input="password">
+            <span class="input-message-error" data-error="password"></span>
+            <button class="button__secondary" data-login="send">Entrar</button>
         </form>
 
     </main>
 
     <footer class="footer" data-footer="footer">
     </footer>
-    <script src="JS/View/Footer.js"></script>
-    <script src="JS/Controller/ValidFooter.js" type="module"></script>
 
+    <script src="JS/Controller/Controller.js" type="module"></script>
 </body>
 
 </html>
