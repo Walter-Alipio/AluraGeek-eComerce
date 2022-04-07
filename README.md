@@ -13,7 +13,7 @@
 -   `Semana 1`: Criação das páginas home e descrição do produto responsivas seguindo modelo disponibilizado no figma.:heavy_check_mark:
 -   `Semana 2`: Criação das páginas login, todos os produtos, adicionar produtos.:heavy_check_mark:
 -   `Semana 3/4`: Adicionar dinamismo a página, validando formulários e dando funcionalidade aos links e botões.
--   :construction: Validação do rodapé adicionada.
+-   :construction: Validação com mensagem personalizada para o rodapé e login adicionadas.
 
 #
 
