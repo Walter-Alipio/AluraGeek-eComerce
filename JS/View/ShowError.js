@@ -16,6 +16,13 @@ export class ShowError {
                 valueMissing: "O campo de mensagem não pode estar vazio.",
                 customError: "Campo vazio.",
             },
+            email: {
+                valueMissing: "O campo de email não pode estar vazio.",
+                patternMismatch: "Email inválido. Ex: usuario@mail.com",
+            },
+            password: {
+                valueMissing: "O campo de senha não pode estar vazio.",
+            },
         };
     }
 

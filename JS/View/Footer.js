@@ -1,4 +1,4 @@
-(() => {
+export const footer = () => {
     document.querySelector(
         '[data-footer="footer"]'
     ).innerHTML = ` <section class="footer__card">
@@ -34,4 +34,4 @@
             <p> Desenvolvido por Walter Alípio </p>
             <p>2022</p>
         </div>`;
-})();
+};
