@@ -25,7 +25,7 @@ export const footer = () => {
                 <textarea name="mensagem" id="message" cols="30" rows="10" placeholder="Escreva sua mensagem"
                     class="footer__card-form-message" required maxlength="120" data-input="message"></textarea>
                 <span class="input-message-error" data-error="message"></span>
-                <button class="footer__card-form-button button__secondary" data-footer="send">Enviar
+                <button class="footer__card-form-button button__secondary" data-send="footer">Enviar
                     mensagem</button>
                 <span class="input-message-send" data-message="send"></span>
             </form>

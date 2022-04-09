@@ -9,7 +9,7 @@ export class ShowError {
         ];
         this.errorMessage = {
             name: {
-                valueMissing: "O campo nome não pode estar vazio.",
+                valueMissing: "O campo nome deve ser preenchido.",
                 customError: "Campo vazio.",
             },
             message: {
@@ -17,11 +17,20 @@ export class ShowError {
                 customError: "Campo vazio.",
             },
             email: {
-                valueMissing: "O campo de email não pode estar vazio.",
+                valueMissing: "O campo de email deve ser preenchido.",
                 patternMismatch: "Email inválido. Ex: usuario@mail.com",
             },
             password: {
                 valueMissing: "O campo de senha não pode estar vazio.",
+            },
+            productName: {
+                valueMissing: "O campo de nome do produto deve ser preenchido.",
+            },
+            value: {
+                valueMissing: "O campo preço deve ser preenchido.",
+            },
+            description: {
+                valueMissing: "O campo descrição deve ser preenchido.",
             },
         };
     }

@@ -8,6 +8,7 @@ export class Validate {
         const inputType = this._input.dataset.input;
         const error = document.querySelector(`[data-error="${inputType}"]`);
         console.log(error);
+
         if (this._input.validity.valid) {
             /* verifica se o campo é valido, e caso seja invalido
         adiciona a classe invalido */
