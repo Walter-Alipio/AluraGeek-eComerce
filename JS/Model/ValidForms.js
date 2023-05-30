@@ -21,7 +21,7 @@ export class ValidForm {
 
             input.addEventListener("blur", (event) => {
                 const validation = new Validate(event.target);
-                console.log(event.target);
+                // console.log(event.target);
                 validation.validate();
             });
         });
