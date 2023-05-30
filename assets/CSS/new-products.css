@@ -1,4 +1,4 @@
-.new-product{
+.new-product {
     display: flex;
     flex-direction: column;
 
@@ -8,15 +8,16 @@
     margin: 0 auto;
 }
 
-.new-product__drop-area, span{
+.new-product__drop-area,
+span {
     display: none;
 }
 
-input[type='file'] {
+input[type="file"] {
     display: none;
-  }
+}
 
-.new-product__addfile{
+.new-product__addfile {
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -24,63 +25,66 @@ input[type='file'] {
     height: 8.5rem;
     width: 100%;
 
-    background: #fff url('../assets/img/icons/plus.svg') no-repeat center 40%;
-    background-size:7%;
-    
+    background: #fff url("../img/icons/plus.svg") no-repeat center 40%;
+    background-size: 7%;
+
     border: 2px dashed var(--black-fifty);
     color: var(--black-fifty);
     font-family: var(--font);
     cursor: pointer;
     padding-bottom: 1rem;
 }
-.new-product__addfile::after{
-    content: 'Adicionar uma imagem para o produto';
+.new-product__addfile:hover {
+    background-color: var(--blue-fifty);
+}
+.new-product__addfile::after {
+    content: "Adicionar uma imagem para o produto";
 }
 
-.new-product__label{
-    font-size: .75rem;
+.new-product__label {
+    font-size: 0.75rem;
     color: var(--black-fifty);
-    left: .75rem;
+    left: 0.75rem;
     position: relative;
     top: 2.25rem;
 }
-.new-product__text-area{
+.new-product__text-area {
     width: 100%;
 
     max-height: 7rem;
     resize: none;
 
     font-family: var(--font);
-    box-shadow: 0 3px 2px #C8C8C8;
+    box-shadow: 0 3px 2px #c8c8c8;
 
     padding: 1rem;
 }
-.button__add{
+.button__add {
     width: 100%;
 }
 
-@media screen and (min-width:768px){
-    
-    .new-product__chose-file{
+@media screen and (min-width: 768px) {
+    .new-product__chose-file {
         display: flex;
         align-items: center;
         gap: 1rem;
     }
-    .new-product__drop-area, span{
+    .new-product__drop-area,
+    span {
         display: block;
     }
 
-    .new-product__drop-area{
+    .new-product__drop-area {
         display: flex;
         align-items: flex-end;
         justify-content: center;
-    
+
         height: 10rem;
         width: 17rem;
-    
-        background: #fff url('../assets/img/icons/empty.svg') no-repeat center 30%;
-        background-size:15%;
-        
+
+        background: #fff url("../img/icons/empty.svg") no-repeat center 30%;
+        background-size: 15%;
+
         border: 2px dashed var(--black-fifty);
         color: var(--black-fifty);
         font-family: var(--font);
@@ -88,52 +92,55 @@ input[type='file'] {
         padding: 1.5rem 1rem;
         text-align: center;
     }
-    .new-product__drop-area::after{
-        content: 'Arraste para adicionar uma imagem para o produto';
+    .new-product__drop-area::after {
+        content: "Arraste para adicionar uma imagem para o produto";
     }
 
-    .new-product__addfile{
+    .new-product__addfile {
         align-items: center;
-        
+
         height: 3rem;
         width: 12rem;
-    
+
         background-color: transparent;
         background-image: none;
-        
+
         border: 1px solid var(--blue-hundred);
-        
+
         color: var(--blue-hundred);
         font-weight: 400;
         font-size: 1rem;
         padding: 0;
     }
+    .new-product__addfile:hover {
+        background-color: #fff;
+    }
 
-    .new-product__addfile::after{
-        content: 'Procure no seu tablet';
+    .new-product__addfile::after {
+        content: "Procure no seu tablet";
     }
 }
 
-@media screen and (min-width: 1024px){
-    .new-product{
+@media screen and (min-width: 1024px) {
+    .new-product {
         max-width: 40rem;
         padding: 3rem 0;
     }
-    .new-product h2{
+    .new-product h2 {
         font-weight: 700;
         font-size: 2rem;
     }
-    .new-product__chose-file{
+    .new-product__chose-file {
         justify-content: space-between;
     }
-    .new-product__drop-area{
+    .new-product__drop-area {
         width: 20rem;
     }
 
-    .new-product__addfile{
+    .new-product__addfile {
         width: 15rem;
     }
-    .new-product__addfile::after{
-        content: 'Procure no seu computador';
+    .new-product__addfile::after {
+        content: "Procure no seu computador";
     }
 }
