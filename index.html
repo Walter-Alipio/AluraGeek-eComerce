@@ -2,232 +2,230 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> AluraGeek | Home </title>
-    <link rel="icon" type="image" href="assets/img/icons/AluraIcon.svg">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> AluraGeek | Home </title>
+  <link rel="icon" type="image" href="assets/img/icons/AluraIcon.svg">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/CSS/base.css">
-    <link rel="stylesheet" href="assets/CSS/Components/banner.css">
+  <link rel="stylesheet" href="assets/CSS/base.css">
+  <link rel="stylesheet" href="assets/CSS/Components/banner.css">
 
 </head>
 
 <body>
-    <header class="header">
-        <a href="index.html" role=button title="Home">
-            <img src="assets/img/icons/Logo-alurageek.svg" alt="Logo AluraGeek" class="header__logo">
-        </a>
-        <div class="search">
-            <input class="header__search" type="search" name="search" id="search-bar"
-                placeholder="O que deseja encontrar?" aria-label="Campo de busca de produtos">
-            <button class="header__search-button" title="Campo de busca">
-                <i class="header__search-icon "></i>
-            </button>
+  <header class="header">
+    <a href="index.html" role=button title="Home">
+      <img src="assets/img/icons/Logo-alurageek.svg" alt="Logo AluraGeek" class="header__logo">
+    </a>
+    <div class="search">
+      <input class="header__search" type="search" name="search" id="search-bar" placeholder="O que deseja encontrar?"
+        aria-label="Campo de busca de produtos">
+      <button class="header__search-button" title="Campo de busca">
+        <i class="header__search-icon "></i>
+      </button>
+    </div>
+    <a href="login.html" role=button class="header__button-login button__primary"
+      title="Login do administrador">Login</a>
+  </header>
+
+  <main>
+    <section class="banner">
+      <h2 class="banner__title">Dezembro Promocional</h2>
+      <p class="banner__texto">Produtos selecionados com 33% de desconto</p>
+      <a href="#consoles" class="button__secondary">Ver Consoles</a>
+    </section>
+
+    <section class="products">
+      <section class="products__section">
+
+        <div class="products__section-name">
+          <h3 class="products__section-title">Star Wars</h3>
+          <a href="products-description.html" class="products__section-link">Ver Tudo</a>
         </div>
-        <a href="login.html" role=button class="header__button-login button__primary"
-            title="Login do administrador">Login</a>
-    </header>
 
-    <main>
-        <section class="banner">
-            <h2 class="banner__title">Dezembro Promocional</h2>
-            <p class="banner__texto">Produtos selecionados com 33% de desconto</p>
-            <a href="#consoles" class="button__secondary">Ver Consoles</a>
-        </section>
+        <div class="products__section-content">
 
-        <section class="products">
-            <section class="products__section">
+          <article class="product">
+            <img src="assets/img/products/img-produtos-starwars/Caneca-average.png"
+              alt="Caneca em formato de capacete de Storm Trooper" class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                <div class="products__section-name">
-                    <h3 class="products__section-title">Star Wars</h3>
-                    <a href="" class="products__section-link">Ver Tudo</a>
-                </div>
+          <article class="product">
+            <img src="assets/img/products/img-produtos-starwars/VaderHead-average.png" alt="Boneco cabeçudo Darth Vader"
+              class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                <div class="products__section-content">
+          <article class="product">
+            <img src="assets/img/products/img-produtos-starwars/Yoda-average.png" alt="Boneco do mestre Yoda"
+              class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-starwars/Caneca-average.png"
-                            alt="Caneca em formato de capacete de Storm Trooper" class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="products-description.html" class="product__link">Ver produto</a>
-                    </article>
+          <article class="product">
+            <img src="assets/img/products/img-produtos-starwars/StormTrooper-average.png" alt="Boneco Storm Trooper"
+              class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-starwars/VaderHead-average.png"
-                            alt="Boneco cabeçudo Darth Vader" class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+          <article class="product">
+            <img src="assets/img/products/img-produtos-starwars/Grogu-average.png" alt="Boneco baby yoda"
+              class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-starwars/Yoda-average.png"
-                            alt="Boneco do mestre Yoda" class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+          <article class="product">
+            <img src="assets/img/products/img-produtos-starwars/Kylo-average.png" alt="Boneco Kylo Ren"
+              class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-starwars/StormTrooper-average.png"
-                            alt="Boneco Storm Trooper" class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+        </div>
+      </section>
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-starwars/Grogu-average.png" alt="Boneco baby yoda"
-                            class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+      <section class="products__section">
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-starwars/Kylo-average.png" alt="Boneco Kylo Ren"
-                            class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+        <div class="products__section-name">
+          <h3 class="products__section-title" id="consoles">Consoles</h3>
+          <a href="" class="products__section-link">Ver Tudo</a>
+        </div>
 
-                </div>
-            </section>
+        <div class="products__section-content">
 
-            <section class="products__section">
+          <article class="product">
+            <img src="assets/img/products/img-produtos-consoles/xbox-controller.png" alt="Controle de xbox"
+              class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                <div class="products__section-name">
-                    <h3 class="products__section-title" id="consoles">Consoles</h3>
-                    <a href="" class="products__section-link">Ver Tudo</a>
-                </div>
+          <article class="product">
+            <img src="assets/img/products/img-produtos-consoles/playstation5.png" alt="Console playstation 5"
+              class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                <div class="products__section-content">
+          <article class="product">
+            <img src="assets/img/products/img-produtos-consoles/nintendo.png" alt="Console nintendo classico"
+              class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-consoles/xbox-controller.png" alt="Controle de xbox"
-                            class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+          <article class="product">
+            <img src="assets/img/products/img-produtos-consoles/nintendoswitch.png" alt="Console nintendo switch"
+              class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-consoles/playstation5.png"
-                            alt="Console playstation 5" class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+          <article class="product">
+            <img src="assets/img/products/img-produtos-consoles/xbox.png" alt="Console xbox" class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-consoles/nintendo.png"
-                            alt="Console nintendo classico" class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+          <article class="product">
+            <img src="assets/img/products/img-produtos-consoles/gameboy.png"
+              alt="Console gameboy classico aberto mostrando as partes internas" class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-consoles/nintendoswitch.png"
-                            alt="Console nintendo switch" class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+        </div>
+      </section>
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-consoles/xbox.png" alt="Console xbox"
-                            class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+      <section class="products__section">
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-consoles/gameboy.png"
-                            alt="Console gameboy classico aberto mostrando as partes internas" class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+        <div class="products__section-name">
+          <h3 class="products__section-title">Diversos</h3>
+          <a href="" class="products__section-link">Ver Tudo</a>
+        </div>
 
-                </div>
-            </section>
+        <div class="products__section-content">
 
-            <section class="products__section">
+          <article class="product">
+            <img src="assets/img/products/img-produtos-diversos/atari.png" alt="Pano amassado com logo da atari"
+              class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                <div class="products__section-name">
-                    <h3 class="products__section-title">Diversos</h3>
-                    <a href="" class="products__section-link">Ver Tudo</a>
-                </div>
+          <article class="product">
+            <img src="assets/img/products/img-produtos-diversos/playingswitch.png"
+              alt="Pessoa jogando um nintendo switch" class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                <div class="products__section-content">
+          <article class="product">
+            <img src="assets/img/products/img-produtos-diversos/sonic.png" alt="Boneco do sonic" class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-diversos/atari.png"
-                            alt="Pano amassado com logo da atari" class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+          <article class="product">
+            <img src="assets/img/products/img-produtos-diversos/clockradio.png" alt="Rádio relógio"
+              class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-diversos/playingswitch.png"
-                            alt="Pessoa jogando um nintendo switch" class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+          <article class="product">
+            <img src="assets/img/products/img-produtos-diversos/playingVR.png" alt="Pessoa jogando VR"
+              class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-diversos/sonic.png" alt="Boneco do sonic"
-                            class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+          <article class="product">
+            <img src="assets/img/products/img-produtos-diversos/pikachu.png" alt="Fantasia de pikachu"
+              class="product__img">
+            <p class="product__name">Produto XYZ</p>
+            <p class="product__value">R$ 60,00</p>
+            <a href="products-description.html" class="product__link">Ver produto</a>
+          </article>
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-diversos/clockradio.png" alt="Rádio relógio"
-                            class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+        </div>
+      </section>
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-diversos/playingVR.png" alt="Pessoa jogando VR"
-                            class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+    </section>
 
-                    <article class="product">
-                        <img src="assets/img/products/img-produtos-diversos/pikachu.png" alt="Fantasia de pikachu"
-                            class="product__img">
-                        <p class="product__name">Produto XYZ</p>
-                        <p class="product__value">R$ 60,00</p>
-                        <a href="#" class="product__link">Ver produto</a>
-                    </article>
+  </main>
 
-                </div>
-            </section>
-
-        </section>
-
-    </main>
-
-    <footer class="footer" data-footer="footer">
-    </footer>
-    <script src="JS/Controller/Controller.js" type="module"></script>
+  <footer class="footer" data-footer="footer">
+  </footer>
+  <script src="JS/Controller/Controller.js" type="module"></script>
 
 </body>
 
